@@ -13,16 +13,33 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    min-height: 100vh;
 }
 
 .container {
     width: 80%;
     margin: auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    opacity: 0.3;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0.5;
+    z-index: -100;
+    position: absolute;
+    min-height: 100vh;
 }
 
-header {
-    flex-wrap: center;
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    
 }
