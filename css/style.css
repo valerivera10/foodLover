@@ -48,6 +48,11 @@ header{
     width: 200px;
     justify-content: flex-start;
     z-index: -5;
+    color: #e58f00;
+}
+
+.textoyboton p {
+    color: white;
 }
 nav{
     display: flex;
@@ -66,6 +71,7 @@ nav img{
 header nav ul {
     display: flex;
     justify-content: space-between;
+    gap: 2rem;
 }
 
 header nav ul li {
@@ -74,6 +80,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
+    color: white;
 }
 
 main{
