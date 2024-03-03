@@ -55,12 +55,12 @@ body{
 .fondo1 {
     position:absolute;
     background-image: linear-gradient(rgba(16, 16, 17, 0.855),rgba(0, 0, 0, 0.845)), url(/storage/img/fondo.png);
-    height: 100vh;
-    width: 100vw;
-    top: -126px;
-    left: 0;
+    height: 100%;
+    width: 100%;
+    top: -125px;
     z-index: 0;
     background-size: cover;
+    object-fit: contain;
 }
 
 
@@ -133,7 +133,7 @@ header nav ul li a {
 .parte1 {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,7 +141,7 @@ header nav ul li a {
 .parte2 {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 150vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,3 +181,52 @@ div button {
     justify-content: center;
     align-items: center;
 }
+
+.parte3 {
+    position: relative;
+    width: 100vw;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cosoamarillo {
+    position: relative;
+    z-index: -1;
+}
+.cosoamarillo img{
+    width: 100%
+}
+.medioplato {
+    position: absolute;
+    z-index: 0;
+    top:-240px;
+    right: 0px;
+}
+.medioplato img{
+    width: 400px;
+}
+.huevo {
+    position: absolute;
+    z-index: -1;
+    
+}
+
+.fresas {
+    position: absolute;
+    z-index: -4;
+}
+
+.Ourfood {
+    position: absolute;
+    z-index: 0;
+    width: 100px;
+    height: 60px;
+}
+
+.parte4 {
+    display: inline;
+}
+
+
